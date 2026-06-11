@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18_HTML2_MYWEB</title>
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/action.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+
+
+
+<body>
+
+
+    <!-- header + #hero + (section_box>section#section * 4) + footer -->
+
+
+    <!-- 헤더 영역 -->
+    <header class="container">
+
+
+        <div class="topset">
+            <div class="search_box"><a href="#"><img src="images/Language.png" alt="랭귀지버튼"></a></div>
+            
+            <div class="login_box">
+                <div class="login">
+                    <a href="#">스토어검색<img src="images/Search.png" alt="검색 로고"></a>
+                    <a href="#"><img src="images/Person outline.png" alt="사람 로고"></a>
+                    <a href="#"><img src="images/Add shopping cart.png" alt="쇼핑 로고"></a>
+                </div>
+                <div class="logout">
+                    <a href="#">로그아웃</a>
+                    <a href="#">정보수정</a>
+                    <a href="#">사이트맵</a>
+                </div>
+            </div>
+        </div>
+
+        <h1><a href="index.html"><img src="images/logo2.png" alt="로고"></a></h1>
+
+        <nav>
+            <ul class="gnb">
+                <li>
+                    <a href="#">베스트</a>
+                </li>
+                <li>
+                    <a href="greeting.html">단백질 보충제</a>
+                </li>
+                <li>
+                    <a href="#">영양제</a>
+                </li>
+                <li>
+                    <a href="#">보조제품</a>
+                </li>
+                <li>
+                    <a href="#">스포츠용품</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <!-- <div id="hero">
+        <ul class="slidebox">
+            <li>
+                <img src="images/visual_main.png" alt="">
+                <div class="textbox">
+                    <div class="text1">오늘의 추천1</div>
+                    <strong>지금 내가 듣고 싶었던 음악, <br>무디파이에서 바로 들어보세요</strong>
+                    <p>취향·감정·상황을 분석해 플레이리스트를 만들어드립니다</p>
+                    <a href="#"><img src="images/icon_01.png" alt="">지금 바로 감상하기</a>
+                </div>  
+            </li>
+            <li>
+                <img src="images/visual_main2.jpg" alt="">
+                <div class="textbox">
+                    <div class="text1">오늘의 추천2</div>
+                    <strong>지금 내가 듣고 싶었던 음악, <br>무디파이에서 바로 들어보세요</strong>
+                    <p>취향·감정·상황을 분석해 플레이리스트를 만들어드립니다</p>
+                    <a href="#"><img src="images/icon_01.png" alt="">지금 바로 감상하기</a>
+                </div>   
+            </li>
+            <li>
+                <img src="images/visual_main3.jpg" alt="">
+                <div class="textbox">
+                    <div class="text1">오늘의 추천3</div>
+                    <strong>지금 내가 듣고 싶었던 음악, <br>무디파이에서 바로 들어보세요</strong>
+                    <p>취향·감정·상황을 분석해 플레이리스트를 만들어드립니다</p>
+                    <a href="#"><img src="images/icon_01.png" alt="">지금 바로 감상하기</a>
+                </div> 
+            </li>
+        </ul>
+    </div> -->
+
+
+    <!-- <div id="hero">
+        <div class="textbox">
+            <div class="text1">4/4 마프대란 굿바이 타임특가</div>
+            <strong>최대 <span class="highlight">80%</span> OFF</strong>
+            <p> 할인코드 <span class="highlight2"> 0404 </span> 입력시</p>
+            <a href="#">SHOP NOW</a>
+        </div>
+    </div>
+ -->
+
+    <!-- Swiper -->
+
+
+
+    <!-- 히어로 영역(스와이프 영역) -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/hero_main.png" alt="">
+                <div class="textbox">
+                    <div class="text1">4/4 마프대란 굿바이 타임특가</div>
+                    <strong>최대 <span class="highlight">80%</span> OFF</strong>
+                    <p> 할인코드 <span class="highlight2"> 0404 </span> 입력시</p>
+                    <a href="#">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="swiper-slide"><img src="images/hero_main2.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/hero_main3.png" alt=""></div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+    <!-- 섹션 영역 -->
+    <div id="section_box">
+        <section id="section01">
+            <div class="container">
+                <div class="board">
+                    <a href="#" class="product_img">
+                        <img src="images/icon_sec1.png" alt="상품1">
+                    </a>
+                </div>
+
+                <div class="board">
+                    <a href="#" class="product_img">
+                        <img src="images/icon_sec2.png" alt="상품2">
+                    </a>
+                </div>
+
+                <div class="board">
+                    <a href="#" class="product_img">
+                        <img src="images/icon_sec3.png" alt="상품3">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 섹션영역2 -->
+        <section id="section02">
+            <div class="container">
+                <h2 class="sec2_title">PROTEIN</h2>
+            
+                <ul class="content">
+                    <li><a href="#"><img src="images/sec2_img1.png" alt="프로틴 상품1"></a></li>
+                    <li><a href="#"><img src="images/sec2_img2.png" alt="프로틴 상품2"></a></li>
+                    <li><a href="#"><img src="images/sec2_img3.png" alt="프로틴 상품3"></a></li>
+                    <li><a href="#"><img src="images/sec2_img4.png" alt="프로틴 상품4"></a></li>
+                    <li><a href="#"><img src="images/sec2_img5.png" alt="프로틴 상품5"></a></li>
+                
+                    <li><a href="#"><img src="images/sec2_img6.png" alt="프로틴 상품6"></a></li>
+                    <li><a href="#"><img src="images/sec2_img7.png" alt="프로틴 상품7"></a></li>
+                    <li><a href="#"><img src="images/sec2_img8.png" alt="프로틴 상품8"></a></li>
+                    <li><a href="#"><img src="images/sec2_img9.png" alt="프로틴 상품9"></a></li>
+                    <li><a href="#"><img src="images/sec2_img10.png" alt="프로틴 상품10"></a></li>
+                </ul>
+            </div>
+        </section>
+     
+
+    
+     <!-- 섹션영역3 -->
+        <section id="section03">
+            <div class="container">
+                <ul class="content">
+                    <li class="banner1">
+                        <a href="#">
+                            <div class="text_box">
+                                <strong>CLEAR Whey Protein</strong>
+                                <p>Delicious clear protein to support<br>your goals and wellbeing</p>
+                                <span class="cta_btn">SHOP NOW</span>
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class="banner2">
+                        <a href="#">
+                            <div class="text_box">
+                                <strong>CLEAR Whey Protein</strong>
+                                <p>Delicious clear protein to support<br>your goals and wellbeing</p>
+                                <span class="cta_btn">SHOP NOW</span>
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class="banner3">
+                        <a href="#">
+                            <div class="text_box">
+                                <strong>CLEAR Whey Protein</strong>
+                                <p>Delicious clear protein to support<br>your goals and wellbeing</p>
+                                <span class="cta_btn">SHOP NOW</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- 섹션영역4 -->
+     <section id="section04">
+        <div class="container">
+            <h2 class="sec4_title">WHY MYPROTEIN</h2>
+            <ul class="content">
+                <li class="card1">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>"재구매율92%"</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="card2">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>고단백</h3>
+                        </div>
+                        <img src="images/sec4_img1.png" alt="" class="s4_img1">
+                    </a>
+                </li>
+                <li class="card3">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>저지방</h3>
+                        </div>
+                        <img src="images/sec4_img2.png" alt="" class="s4_img2">
+                    </a>
+                </li>
+                <li class="card4">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>빠른 흡수</h3>
+                        </div>
+                        <img src="images/sec4_img3.png" alt="" class="s4_img3">
+                    </a>
+                </li>
+                <li class="card5">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>“맛과 영양을 모두 잡은 데일리 단백질”</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="card6">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>인증/신뢰</h3>
+                        </div>
+                        <img src="images/sec4_img4.png" alt="" class="s4_img4">
+                    </a>
+                </li>
+                <li class="card7">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>단백질 섭취법</h3>
+                        </div>
+                        <img src="images/sec4_img5.png" alt="" class="s4_img5">
+                    </a>
+                </li>
+                <li class="card8">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>운동 루틴</h3>
+                        </div>
+                        <img src="images/sec4_img6.png" alt="" class="s4_img6">
+                    </a>
+                </li>
+                <li class="card9">
+                    <a href="#">
+                        <div class="textbox">
+                            <h3>할인 배너</h3>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+     </section>
+
+    </div>
+
+    
+
+
+
+    
+    <!-- 푸터영역 -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer_logo">
+            <a href="#">
+                <img src="images/footer_logo.png" alt="MYMONSTER PROTEIN">
+            </a>
+        </div>
+
+        <div class="footer_info">
+            <h2>MYMONSTER PROTEIN</h2>
+            <p>
+                상호명: 마이몬스터프로틴 ㅣ 대표자: 홍길동 ㅣ 본사: 서울특별시 강남구 테헤란로 123, 5층 ㅣ 사업자등록번호: 123-45-67890
+                <br>통신판매업신고: 2026-서울강남-0000 ㅣ 이메일: support@mymonsterprotein.com <a href="#" class="biz_btn">[사업자정보확인]</a>
+            </p>
+            
+            <p class="copy">© 2026 MYMONSTER PROTEIN. All Rights Reserved.</p>
+            <address>
+                마이몬스터프로틴은 단백질 보충제 및 스포츠 영양 제품 정보를 제공합니다. 제품 구매 전 상세페이지 및 섭취 방법을 반드시 확인해 주시기 바랍니다.<br>
+                개인의 건강 상태 및 체질에 따라 제품 효과에는 차이가 있을 수 있으며, 이상이 있을 경우 섭취를 중단하고 전문가와 상담하시기 바랍니다.
+            </address>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", { slidesPerView: 1, spaceBetween: 30, loop: true, pagination: { el: ".swiper-pagination", clickable: true, }, navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev", }, });
+    </script>
+
+
+</body>
+</html>
+
