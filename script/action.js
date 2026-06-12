@@ -44,7 +44,12 @@ window.addEventListener('DOMContentLoaded', function () {
         '#section04 .sec4_title',
         '#section04 .content li',
         '.content_sub h2',
-        '.content_sub .content_box > .content > li'
+        '.content_sub .content_box > .content > li',
+        '.utility_head',
+        '.utility_panel',
+        '.utility_form',
+        '.cart_table',
+        '.cart_summary'
     ].join(',');
 
     gsap.utils.toArray(revealTargets).forEach(function (item, index) {
